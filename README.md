@@ -28,7 +28,7 @@ npm start
 
 cd Contact-page-master
 npm run build
-cd build/
+cd build
 npm start
 ```
 
