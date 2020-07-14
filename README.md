@@ -22,11 +22,13 @@
 
 ```bash
 cd Contact-page-master
+npm install
 npm start
 
 или
 
 cd Contact-page-master
+npm install
 npm run build
 cd build
 npm start
