@@ -1,0 +1,76 @@
+.AuthorizationForm {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid silver;
+}
+
+.AuthorizationForm * {
+    display: block;
+}
+
+.AuthorizationForm h1 {
+    color: #333333;
+}
+
+.AuthorizationForm h1:hover {
+    cursor: default;
+}
+
+.AuthorizationForm form input {
+    padding: 10px;
+    border: 1px solid silver;
+    width: 280px;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.AuthorizationForm form input:nth-child(3) {
+    width: 100px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 0.4s ease;
+}
+
+.AuthorizationForm form input:nth-child(3):hover {
+    cursor: pointer;
+    background-color: steelblue;
+    border-color: steelblue;
+    color: white;
+}
+
+.AuthorizationForm form + input {
+    padding: 5px;
+    border: 1px solid silver;
+    width: 150px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+}
+
+.AuthorizationForm form + input:hover {
+    cursor: pointer;
+    background-color: silver;
+    color: white;
+}
+
+
+
+@media (max-width: 360px) {
+    .AuthorizationForm {
+        width: 250px;
+    }
+
+    .AuthorizationForm form input {
+        width: 230px;
+    }
+}
