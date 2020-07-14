@@ -21,12 +21,12 @@
 Второй - в терминале зайти в папку проекта и ввести команду npm run build, зайти в папку build в терминале и ввести команду npm start (рекомендуется)
 
 ```bash
-cd папка-с-проектом/
+cd Contact-page-master
 npm start
 
 или
 
-cd папка-с-проектом/
+cd Contact-page-master
 npm run build
 cd build/
 npm start
